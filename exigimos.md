@@ -4,10 +4,6 @@ layout: page
 icon: fa-balance-scale
 order: 4
 ---
-Párrafo descriptivo.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-<footer>
-  <a href="#portfolio" class="button scrolly">Magna Aliquam</a>
-</footer>
+- Que se investigue con enfoque en derechos humanos y con perspectiva género el caso de la violencia ejercida en contra de la compañera Evelyn por parte de policías municipales, así como los casos ocurridos el 22 de agosto en la ciudad de León, Guanajuato.
+- La destitución inmediata de las y los agentes policiales responsables de la violencia ejercida en contra de las compañeras. Toda violencia cometida por funcionarios públicos representa violaciones a derechos humanos.
+- Destitución inmediata del Secretario de Seguridad Pública del municipio Mario Bravo Arrona, quien, a través de estos dos últimos sucesos, ha demostrado su incapacidad como funcionario público para garantizar, respetar, proteger los derechos humanos de las mujeres.
