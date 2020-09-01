@@ -1,14 +1,67 @@
----
-layout: default
----
-{%- include header.html -%}
+<!DOCTYPE HTML>
+<head>
+	<style>
+		#wrap {
+		    width:100%;
+				margin:0 auto;
+		}
+		.big_col, .medium_col, .small_col{
+		    float:left;
+		}
+		img {
+		    height:auto;
+		    display:block;
+		    margin:0;
+		    padding:0;
+		    border:none;
+		    float:left;
+		}
+		.big_col {
+		    width:25%;
+		}
+		.medium_col{
+		    width:12.5%;
+		}
+		.small_col{
+		    width:6.25%;
+		}
 
-<!-- Main -->
-<div id="main">
-	<!-- Page -->
-	<article class="shade-five">
-	  <div class="container">
-	    {{- content -}}
-	  </div>
-	</article>
-</div>
+		.small_col img{
+		    width:100%;
+		}
+		.medium_col>img {
+		    width:100%;
+		}
+		.medium_col .small_img img {
+		    width:50%;
+		}
+		.big_col .small_img img {
+		    width:25%;
+		}
+		.big_col .medium_img img {
+		    width:50%;
+		}
+		.big_col img {
+		    width:100%;
+		}
+	</style>
+</head>
+
+<html>
+	{%- include head.html -%}
+	<body>
+		{%- include header.html -%}
+
+		<!-- Main -->
+		<div id="main">
+			<!-- Page -->
+			<article class="shade-five">
+			  <div class="container">
+			    {{- content -}}
+			  </div>
+			</article>
+		</div>
+
+		{%- include footer.html -%}
+	</body>
+</html>
