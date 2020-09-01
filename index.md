@@ -11,10 +11,10 @@ hide: true
 
 <p style="color:white;"><i>En memoria de las mujeres víctimas de represión y tortura sexual por parte de policías municipales.</i></p>
 
-## ¿Qué sucedió el 22 de agosto de 2020 en León, Gto?
-> Mujeres y adolescentes salieron a manifestarse a las calles del centro de la ciudad de **León, Guanajuato** por la agresión sexual de policías municipales a Evelyn; durante y después de la manifestación una redada policíaca detuvo, golpeó, agredió sexualmente, arrestó y mantuvo incomunicadas durante dos horas a 25 mujeres compañeras feministas que solo se manifestaron para exigir justicia.
+<h2 style="color: #bbb"> ¿Qué sucedió el 22 de agosto de 2020 en León, Gto? </h2>
 
-<br>
+*Mujeres y adolescentes salieron a manifestarse a las calles del centro de la ciudad de **León, Guanajuato** por la agresión sexual de policías municipales a Evelyn; durante y después de la manifestación una redada policíaca detuvo, golpeó, agredió sexualmente, arrestó y mantuvo incomunicadas durante dos horas a 25 mujeres compañeras feministas que solo se manifestaron para exigir justicia.*
+
 
 <div style="text-align: center">
 <div id="wrap">
