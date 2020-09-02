@@ -57,6 +57,18 @@
 		)
 	));
 
+	@font-face {font-family: "Coolvetica"; src: url("//db.onlinewebfonts.com/t/06594b8e23c284f33b51e05d8145f62d.eot"); src: url("//db.onlinewebfonts.com/t/06594b8e23c284f33b51e05d8145f62d.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/06594b8e23c284f33b51e05d8145f62d.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/06594b8e23c284f33b51e05d8145f62d.woff") format("woff"), url("//db.onlinewebfonts.com/t/06594b8e23c284f33b51e05d8145f62d.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/06594b8e23c284f33b51e05d8145f62d.svg#Coolvetica") format("svg"); }
+
+	@font-face {
+  font-family: "hangingtreecondital";
+  src: url("../fonts/hangingtreecondital.ttf");
+	}
+
+	@font-face {
+  font-family: "bombtrack";
+  src: url("../fonts/Bombtrack.ttf");
+	}
+
 /* Basic */
 
 	body {
@@ -716,6 +728,17 @@
 
 			&.shade-five {
 				background-color: #5B197B;
+				h2 {
+					font-size: 3em;
+					font-family: Bombtrack;
+					text-align: center;
+					color: #fff;
+				}
+				h1 {
+					font-size: 4em;
+					font-family: hangingtreecondital;
+					color: #fff;
+				}
 			}
 		}
 	}
