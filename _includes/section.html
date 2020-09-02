@@ -6,10 +6,11 @@
 	photo-alt
 	auto-header
 	content
+  name
 {%- endcomment -%}
 
 {%- assign _title = include.title | default: 'Untitled' -%}
-{%- assign _slug = include.title | strip_html | slugify | default: 'untitled' -%}
+{%- assign _slug = include.name | strip_html | slugify | default: 'untitled' -%}
 
 {%- if include.photo and include.photo-alt -%}
 	{%- capture _photo -%}
