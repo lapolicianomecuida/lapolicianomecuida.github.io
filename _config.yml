@@ -29,7 +29,7 @@ author: LaPoliciaNoMeCuida.org
 email: lapolicianomecuida.org@gmail.com
 avatar: assets/images/avatar.jpg
 
-baseurl: ""
+baseurl: "/demo"
 # url: "" # the base hostname & protocol for your site
 
 # Social settings
