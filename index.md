@@ -9,11 +9,17 @@ hide: true
 # LA POLICIA NO ME CUIDA
 ## ME CUIDAN MIS AMIGAS
 
-<p style="color:white;text-align: center;"><i>En memoria de las mujeres víctimas de represión y tortura sexual por parte de policías municipales.</i></p>
+<p style="color:white;text-align: center;"><i>En memoria de las mujeres víctimas de represión y violencia sexual por parte de policías municipales.</i></p>
 
 <h3 style="color: #bbb"> ¿Qué sucedió el 22 de agosto de 2020 en León, Gto? </h3>
 
-*Mujeres y adolescentes salieron a manifestarse a las calles del centro de la ciudad de **León, Guanajuato** por la agresión sexual de policías municipales a Evelyn; durante y después de la manifestación una redada policíaca detuvo, golpeó, agredió sexualmente, arrestó y mantuvo incomunicadas durante dos horas a 25 mujeres compañeras feministas que solo se manifestaron para exigir justicia.*
+
+*Mujeres y adolescentes salieron a manifestarse a las calles del centro de la ciudad de **León, Guanajuato** por la agresión sexual de policías municipales a Evelyn; durante y después de la manifestación una redada policíaca detuvó, golpeó, arrestó y mantuvó incomunicadas durante tres horas a 22 mujeres. Algunas de ellas participantes de la manifestación y otras solo iban pasando por el lugar.*
+
+Este es un espacio de memoria para las mujeres que fueron víctimas de la injusticia y represión policíaca.
+
+**Si tocan a una, respondemos todas**
+
 
 
 <div style="text-align: center">
