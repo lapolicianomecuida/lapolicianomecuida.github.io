@@ -1,0 +1,328 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../node_modules/bootstrap-vue/src/index.scss';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,700;1,300&family=Open+Sans:wght@300;600;700&family=Covered+By+Your+Grace&display=swap');
+
+$neutral-color: #fff;
+$default-color: #0f1114;
+$primary-color: #282846;
+$secondary-color: #2f4161;
+$accent-color: #d900f6;
+
+html {
+  font-size: 13.3px;
+}
+
+#app {
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  font-size: 1rem;
+  color: $default-color;
+}
+
+.handfont {
+  font-family: 'Covered By Your Grace', cursive;
+}
+
+.primary-color {
+  color: #1c3c75;
+}
+.secondary-color {
+  color: #229dd9;
+}
+.normal-color {
+  color: #4e4e4e;
+}
+
+
+.neutral-text {
+  color: $neutral-color;
+}
+.default-text {
+  color: $default-color;
+}
+.primary-text {
+  color: $primary-color;
+}
+.default-background {
+  background-color: $default-color;
+}
+.primary-background {
+  background-color: $primary-color;
+}
+.secondary-text {
+  color: $secondary-color;
+}
+.secondary-background {
+  background-color: $secondary-color;
+}
+.accent-text {
+  color: $accent-color;
+}
+.accent-background {
+  background-color: $accent-color;
+}
+.accent-border {
+  border-color: $accent-color;
+}
+
+.mobile {
+  display: flex;
+}
+.desktop-xl {
+  display: none;
+}
+.desktop {
+  display: none;
+}
+
+.title {
+  font-family: 'sans-serif';
+}
+
+.sub-title {
+  text-transform: uppercase;
+  font-size: 2.2rem;
+}
+
+.italic {
+  font-style: italic;
+}
+.underline {
+	text-decoration: underline;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+
+.bold {
+  font-weight: 600;
+}
+.bolder {
+  font-weight: 700;
+}
+.boldest {
+	font-weight: 900;
+}
+
+.get-bolder {
+  font-weight: bolder;
+}
+
+.light {
+	font-weight: 300;
+}
+.get-lighter {
+	font-weight: lighter;
+}
+
+.large {
+  font-size: 1.15rem;
+}
+.larger {
+  font-size: 1.3rem;
+}
+.largest {
+	font-size: 1.5rem;
+}
+
+.small {
+	font-size: 0.85rem;
+}
+.smaller {
+	font-size: 0.7rem;
+}
+.smallest {
+  font-size: 0.5rem;
+}
+
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+
+.show {
+  opacity: 1 !important;
+}
+
+.control-width {
+  max-width: 1400px;
+}
+
+.bullet {
+  height: 0.9rem;
+}
+
+a {
+  &:hover {
+    color: $accent-color;
+    text-decoration: none;
+    font-weight: 600;
+  }
+}
+
+// Override bootstrap styles
+.navbar {
+  background-color: transparent;
+  position: fixed;
+  top:0;
+  width: 100%;
+  z-index: 20;
+  .navbar-toggler {
+    border: none;
+    &:focus {
+      outline: none;
+    }
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+  .nav-link {
+    max-width: 240px;
+    font-weight: 600;
+    font-size: 0.65rem;
+    a {
+      color: #2f4161;
+      &.router-link-exact-active.router-link-active {
+        color: $accent-color;
+      }
+    }
+  }
+}
+
+.form-control,
+.custom-select {
+  border: 3px solid $primary-color;
+  &:focus {
+    border-color: $accent-color;
+  }
+}
+
+#contact-modal {
+  .modal-header {
+    padding-bottom: 0;
+    background-color: #090a16;
+    border-bottom: 0;
+    .close {
+      color: $neutral-color;
+    }
+  }
+  .modal-body {
+    padding: 0;
+  }
+}
+
+#main-control {
+  .nav-tabs {
+    border-bottom: none;
+    > li > a.nav-link.active {
+      background-color: #86fcf2;
+    }
+    > li > a.nav-link {
+      text-transform: uppercase;
+      font-weight: 700;
+      color: $primary-color;
+      border-radius: 0;
+      border: none;
+      font-size: 1.3rem;
+      margin: auto 0.5rem;
+      padding: 0.5rem;
+      &:hover {
+        background-color: #86fcf23a;
+      }
+    }
+    > li {
+      &:first-child {
+        border-right: 4px solid $primary-color;
+      }
+      &:nth-child(2) {
+        border-right: 4px solid $primary-color;
+      }
+    }
+  }
+
+
+  .second-control {
+    .nav-tabs {
+      border-bottom: none;
+      > li > a.nav-link.active {
+        border-bottom: 5px solid $primary-color;
+      }
+      > li > a.nav-link {
+        margin: auto 1.5rem;
+        padding: 0rem;
+        text-transform: none;
+        background-color: transparent;
+        &:hover {
+          border-bottom: 5px solid $primary-color;
+          opacity: 0.8;
+        }
+      }
+      > li {
+        border: none;
+      }
+    }
+  }
+}
+
+.body {
+  background-color: #fff;
+}
+// Medium devices
+@media (min-width: 768px) and (max-width: 991px) {
+  html {
+    font-size: 19px !important;
+  }
+  .desktop-xl {
+    display: none;
+  }
+  .desktop {
+    display: inline;
+  }
+  .mobile {
+    display: none;
+  }
+}
+
+// Large devices (desktops)
+@media (min-width: 992px) and (max-width: 1399px) {
+  html {
+    font-size: 19px !important;
+  }
+  .mobile {
+    display: none;
+  }
+  .desktop-xl {
+    display: none;
+  }
+  .desktop {
+    display: inline;
+  }
+  .dark-logo,
+  .logo {
+    width: 110px;
+  }
+}
+
+// Extra large devices (large desktops, 1400px and up)
+@media (min-width: 1400px) {
+  html {
+    font-size: 19px !important;
+  }
+  .mobile {
+    display: none;
+  }
+  .desktop {
+    display: inline;
+  }
+  .dark-logo,
+  .logo {
+    width: 140px;
+  }
+}

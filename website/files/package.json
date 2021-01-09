@@ -1,0 +1,16 @@
+{
+  "name": "files",
+  "version": "1.0.0",
+  "description": "Parse data and add open graph data",
+  "main": "GetOGImg.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "getJson": "node GetOGImg.js --state='Jalisco'"
+  },
+  "author": "Angelica Miranda <mirandas.angelica@gmail.com> (satirama.github.io)",
+  "license": "MIT",
+  "dependencies": {
+    "core-js": "^3.8.0",
+    "minimist": "^1.2.5"
+  }
+}
